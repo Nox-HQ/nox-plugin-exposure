@@ -1,0 +1,14 @@
+database:
+  host: 10.0.3.100
+  port: 3306
+  admin: admin@company.com
+
+server: Nginx/1.23.0
+version: '1.0.5'
+
+logging:
+  path: /var/log/nginx
+  level: debug
+
+internal:
+  endpoint: http://auth.internal.corp/verify

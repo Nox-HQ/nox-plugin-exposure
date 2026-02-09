@@ -1,0 +1,13 @@
+{
+  "database": {
+    "host": "192.168.1.200",
+    "port": 5432,
+    "admin_email": "dba@company.com"
+  },
+  "server": "Apache/2.4.52",
+  "version": "2.5.1",
+  "paths": {
+    "logs": "/var/log/app",
+    "secrets": "/etc/shadow"
+  }
+}
